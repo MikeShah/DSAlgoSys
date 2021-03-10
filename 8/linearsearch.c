@@ -1,6 +1,6 @@
 // ===========================
 // compile on the command line with
-// gcc linearsearch.c -o linearsearch
+// gcc -g linearsearch.c -o linearsearch
 // ===========================
 #include <stdio.h>
 
