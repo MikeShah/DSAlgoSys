@@ -1,10 +1,14 @@
-// main.c
-int sum(int* a, int);
+// printf.c
+#include <stdio.h>
 
-int array[2] = {1,2};
+int main(){
 
-int main(int argc, char** argv){
+    int x = 7;
+    // A simple way to debug
+    // the value of 'x' at
+    // this point in the program
+    printf("x is %d\n",x);
 
-    int val = sum(array,2);
-    return val;
+    return 0;
 }
+
